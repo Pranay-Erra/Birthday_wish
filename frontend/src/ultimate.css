@@ -1,0 +1,38 @@
+.body_u {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    background-color:aqua;
+}
+
+
+/* .pic{
+    object-fit: cover;
+    max-height: 80%;
+    max-width: 100vw;
+
+} */
+
+/* .body_u::before {
+    content: '';
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: scroll;
+    height: 100vh;
+    background: url('birthday_2.png') repeat; 
+    background-size: cover;
+    z-index: -1;
+  } */
+  
+
+/* CONFETTI */
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+}

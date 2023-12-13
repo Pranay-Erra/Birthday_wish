@@ -1,0 +1,27 @@
+
+.balloon {
+  width: 50px;
+  height: 80px;
+  background-color: #3498db;
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+  animation: floatAnimation 5s infinite linear;
+  z-index: 1; /* Add this line */
+}
+
+@keyframes floatAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-40vh);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.balloon.popped {
+  display: none;
+}

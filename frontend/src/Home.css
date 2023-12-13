@@ -1,0 +1,70 @@
+.u-section-1 {
+    background-image: url("Home.jpg");
+    background-position: 50% 50%;
+  }
+  
+  .u-section-1 .u-sheet-1 {
+    min-height: 697px;
+  }
+  
+  .u-section-1 .u-text-1 {
+    font-size: 3.75rem;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 3px rgba(178,154,54,0.4);
+    font-family: "Paytone One";
+    font-weight: 700;
+    margin: 183px auto 0;
+  }
+  
+  .u-section-1 .u-text-2 {
+    letter-spacing: 3px;
+    width: 356px;
+    margin: 20px auto 0;
+  }
+  
+  .u-section-1 .u-btn-1 {
+    border-style: solid;
+    font-size: 0.875rem;
+    background-image: linear-gradient(to right, #478ac9, #e68387);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    margin: 27px auto 60px;
+    padding: 15px 48px 16px 47px;
+  }
+  
+  @media (max-width: 1199px) {
+    .u-section-1 .u-sheet-1 {
+      min-height: 575px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .u-section-1 .u-sheet-1 {
+      min-height: 440px;
+    }
+  
+    .u-section-1 .u-text-1 {
+      font-size: 3rem;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .u-section-1 .u-sheet-1 {
+      min-height: 330px;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .u-section-1 .u-sheet-1 {
+      min-height: 208px;
+    }
+  
+    .u-section-1 .u-text-1 {
+      font-size: 2.25rem;
+    }
+  
+    .u-section-1 .u-text-2 {
+      width: 340px;
+    }
+  }
